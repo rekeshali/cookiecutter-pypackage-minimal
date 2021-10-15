@@ -1,7 +1,17 @@
+Changes
+-------
+- Added makefile taken from https://github.com/elgertam/cookiecutter-pipenv
+  - Removed lint, release, tox
+  - Added venv
+- Added docs files from https://github.com/elgertam/cookiecutter-pipenv
+
+
+
 cookiecutter-pypackage-minimal
 ==============================
 
 An opinionated, minimal [cookiecutter](https://github.com/audreyr/cookiecutter) template for Python packages, and some guidelines for Python packaging.
+
 
 Usage
 -----
