@@ -10,8 +10,8 @@ with open('README.rst') as readme_file:
 
 requirements = [
         {%- if cookiecutter.command_line_interface|lower == 'click' %}'Click>=6.0',{%- endif %}
-        "Sphinx==4.2.0",
-        "black==21.9b0",
+        'Sphinx==4.2.0',
+        'black==21.9b0',
         ]
 
 setup_requirements = [{%- if cookiecutter.use_pytest == 'y' %}'pytest-runner',{%- endif %} ]
