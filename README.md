@@ -1,10 +1,9 @@
 Changes in Fork
 ===============
-- Added makefile taken from https://github.com/elgertam/cookiecutter-pipenv
+- Added makefile from https://github.com/elgertam/cookiecutter-pipenv
   - Removed lint, release, tox
-  - Added venv
-- Added docs files from https://github.com/elgertam/cookiecutter-pipenv
-
+  - Added venv, black formatting
+- Added cli option, docs, tests, setup.py files from https://github.com/elgertam/cookiecutter-pipenv
 
 
 cookiecutter-pypackage-minimal
