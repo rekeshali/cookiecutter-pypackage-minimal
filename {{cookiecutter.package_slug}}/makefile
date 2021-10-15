@@ -94,9 +94,15 @@ dist: clean ## builds source and wheel package
 	python3 setup.py bdist_wheel
 	ls -l dist
 
-venv: clean ## create a virutal python3 environment
+venv: clean ## create a virutal python3 environment using virtualenv
+	deactivate
 	rm -rf venv
-	virtualenv --always-copy --python={{ cookiecutter.python3 }} venv
+	virtualenv --always-copy --python=python{{ cookiecutter.python3_version }} venv
+
+conda: clean ## create a virtual python3 environment using anaconda
+	conda deactivate
+	conda env remove --name {{ cookiecutter.package_slug }}
+	conda create -n {{ cookiecutter.package_slug }} python={{ cookiecutter.python3_version }}
 
 install: clean ## install the package to the active Python's site-packages
 	python3 setup.py install
