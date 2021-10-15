@@ -3,7 +3,7 @@ Changes in Fork
 - Added makefile from https://github.com/elgertam/cookiecutter-pipenv
   - Removed lint, release, tox
   - Added venv, black formatting
-- Added cli option, docs, tests, setup.py files from https://github.com/elgertam/cookiecutter-pipenv
+- Added license options, cli option, docs, tests, setup.py files from https://github.com/elgertam/cookiecutter-pipenv
 - Expanded .gitignore
 
 
