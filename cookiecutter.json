@@ -7,7 +7,7 @@
   "package_slug": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_') }}",
   "package_description": "{{ cookiecutter.package_name }} contains all the boilerplate you need to create a Python package.",
   "package_version": "0.1.0",
-  "package_url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package_name }}",
+  "package_url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package_slug }}",
 
   "python":"python3.8",
   "use_pytest": "y",
