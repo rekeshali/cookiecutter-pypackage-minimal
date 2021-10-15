@@ -4,6 +4,7 @@ Changes in Fork
   - Removed lint, release, tox
   - Added venv, black formatting
 - Added cli option, docs, tests, setup.py files from https://github.com/elgertam/cookiecutter-pipenv
+- Expanded .gitignore
 
 
 cookiecutter-pypackage-minimal
