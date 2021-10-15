@@ -9,7 +9,7 @@
   "package_version": "0.1.0",
   "package_url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package_slug }}",
 
-  "python3":"python3.8",
+  "python3_version":"3.8",
   "use_pytest": "y",
   "command_line_interface": ["Click", "No command-line interface"],
   "create_author_file": "y",
