@@ -1,5 +1,5 @@
-Changes
--------
+Changes in Fork
+===============
 - Added makefile taken from https://github.com/elgertam/cookiecutter-pipenv
   - Removed lint, release, tox
   - Added venv
